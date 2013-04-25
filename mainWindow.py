@@ -13,6 +13,7 @@ class PaintWindow(wx.Window):
     is_drawing = False
     end = False
     test = False
+    test2 = True
     
     
     def __init__(self, parent, id):  
