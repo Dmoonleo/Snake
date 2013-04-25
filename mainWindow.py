@@ -12,6 +12,8 @@ class PaintWindow(wx.Window):
     rock_num = 0
     is_drawing = False
     end = False
+    test = True
+    
     
     def __init__(self, parent, id):  
         wx.Window.__init__(self, parent, id)  
